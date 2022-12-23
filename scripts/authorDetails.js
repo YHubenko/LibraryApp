@@ -1,3 +1,4 @@
+//AUTHOR-DETAILS
 let updateDetailsTable = () => {
     for (const author of authors) {
         if (author.chosenFlag) {
