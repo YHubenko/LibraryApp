@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/authorDetails.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <a href="index.html"><button>Автори</button></a>
+        <a href="genres.html"><button>Жанри</button></a>
+        <a href="searchBook.html"><button>Книги</button></a>
+    </header>
+    <main class="mainBlock">
+        <div class="workspace">
+            <table id="authorDetailsTable">
+                <tr>
+                    <td>Прізвище</td>
+                    <td><input type="text" id="detailsLastNameOutput" disabled></td>
+                </tr>
+                <tr>
+                    <td>Ім'я</td>
+                    <td><input type="text" id="detailsFirstNameOutput" disabled></td>
+                </tr>
+                <tr>
+                    <td>По-батькові</td>
+                    <td><input type="text" id="detailsMiddleNameOutput" disabled></td>
+                </tr>
+                <tr>
+                    <td>Дата народження</td>
+                    <td><input type="date" id="detailsBirthDateOutput" disabled></td>
+                </tr>
+            </table>
+            <p id="books">Книги:</p>
+            <table id="authorDetailsBooksTable">
+
+            </table>
+        </div>
+        <footer>
+            <a href="index.html">
+                <button>Home</button>
+            </a>
+        </footer>
+    </main>
+</div>
+<script src="scripts/storage.js"></script>
+<script src="scripts/functions.js"></script>
+<script src="scripts/authorDetails.js"></script>
+</body>
+</html>

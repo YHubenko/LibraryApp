@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Editor</title>
+</head>
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/editAuthor.css">
+<body>
+<div class="wrapper">
+    <header>
+        <a href="index.html"><button>Автори</button></a>
+        <a href="genres.html"><button>Жанри</button></a>
+        <a href="searchBook.html"><button>Книги</button></a>
+    </header>
+    <main class="mainBlock">
+        <div class="workspace">
+            <form id="editAuthorForm">
+                <table id="editAuthorTable">
+                    <tr>
+                        <td>Прізвище</td>
+                        <td><input type="text" id="editedLastNameInput"></td>
+                        <td id="editAuthorEmptyLastNameErrorOutput"></td>
+                    </tr>
+                    <tr>
+                        <td>Ім'я</td>
+                        <td><input type="text" id="editedFirstNameInput"></td>
+                        <td id="editAuthorEmptyFirstNameErrorOutput"></td>
+                    </tr>
+                    <tr>
+                        <td>По-батькові</td>
+                        <td><input type="text" id="editedMiddleNameInput"></td>
+                    </tr>
+                    <tr>
+                        <td>Дата народження</td>
+                        <td><input type="date" id="editedBirthDateInput"></td>
+                        <td id="editAuthorDateErrorOutput"></td>
+                    </tr>
+                </table>
+                <p id="books">Книги:</p>
+                <table id="editAuthorBooksTable">
+
+                </table>
+                <button id="newBookBtn">Додати книгу</button>
+            </form>
+        </div>
+        <footer>
+            <button id="submitBtn">Зберегти</button>
+        </footer>
+    </main>
+</div>
+<script src="scripts/storage.js"></script>
+<script src="scripts/functions.js"></script>
+<script src="scripts/editAuthor.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#bookNameInput {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-size: 18px;
+    padding: 0 2.5%;
+}
+.hidden {
+    display: none;
+}
+#bookDetailsTable {
+    width: 95%;
+    margin: 10px auto;
+}
+#bookAuthorOutput {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+#bookAuthorOutput:hover {
+    cursor: pointer;
+    color: #342d7e;
+}

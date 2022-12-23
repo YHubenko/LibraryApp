@@ -1,0 +1,92 @@
+#editBookPagesNumberInput {
+    width: 20%;
+    height: 45%;
+}
+
+#editBookGenreSelector {
+    width: 45%;
+    height: 45%;
+    border: none;
+}
+
+#editBookNameInput {
+    width: 65%;
+    height: 45%;
+}
+
+#newBookPagesNumberInput {
+    width: 67px;
+    height: 45%;
+}
+
+#newBookNameInput {
+    width: 209px;
+    height: 45%;
+}
+
+#newBookGenreSelector {
+    width: 142px;
+    height: 45%;
+}
+
+#editAuthorBooksTable {
+    width: 95%;
+    margin: 5px auto;
+}
+
+#editAuthorBooksTable tr {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+#editAuthorBooksTable tr:hover {
+    background-color: rgba(222, 232, 243, 0.27);
+}
+
+#editAuthorBooksTable td:nth-child(2) {
+    display: block;
+    text-align: right;
+}
+
+#editAuthorBooksTable td button {
+    width: 100px;
+}
+
+#editAuthorBooksTable .notChosen td {
+    display: flex;
+    flex-direction: column;
+}
+
+#newBookRow td {
+    width: 316px;
+}
+
+#books {
+    padding-left: 2.5%;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin: 10px 0;
+}
+
+#editAuthorTable {
+    width: 95%;
+    margin: 5px auto;
+}
+
+#editAuthorEmptyFirstNameErrorOutput,
+#editAuthorEmptyLastNameErrorOutput,
+#editAuthorDateErrorOutput {
+    color: darkred;
+    font-weight: bold;
+    width: 100px;
+}
+
+#newBookBtn {
+    position: relative;
+    top: -10px;
+    margin: 0 2.5%;
+    width: 100px;
+    height: 25px;
+}

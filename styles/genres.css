@@ -1,0 +1,19 @@
+#genresTable {
+    margin: 5px 2.5%;
+}
+#genresTable tr {
+    display: flex;
+    margin-top: 10px;
+    height: 25px;
+}
+#genresTable tr:hover {
+    background-color: #e7fcfc;
+}
+#genresTable input {
+    margin-right: 100px;
+    height: 100%;
+}
+#genresTable button {
+    margin: 0 5px;
+    height: 100%;
+}

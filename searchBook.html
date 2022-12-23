@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/searchBook.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <a href="index.html">
+            <button>Автори</button>
+        </a>
+        <a href="genres.html">
+            <button>Жанри</button>
+        </a>
+        <a href="searchBook.html">
+            <button class="chosenButton">Книги</button>
+        </a>
+    </header>
+    <main class="mainBlock">
+        <div class="workspace">
+            <input type="text" placeholder="Назва книги" id="bookNameInput">
+            <table id="bookDetailsTable" class="hidden">
+                <tr>
+                    <td>Назва книги:</td>
+                    <td id="bookNameOutput"></td>
+                </tr>
+                <tr>
+                    <td>Жанр книги:</td>
+                    <td id="bookGenreOutput"></td>
+                </tr>
+                <tr>
+                    <td>Автор книги:</td>
+                    <td><a href="authorDetails.html" id="bookAuthorOutput"></a></td>
+                </tr>
+                <tr>
+                    <td>Кількість сторінок</td>
+                    <td id="bookPagesNumberOutput"></td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <button id="searchBtn">Пошук</button>
+        </footer>
+    </main>
+</div>
+<script src="scripts/storage.js"></script>
+<script src="scripts/functions.js"></script>
+<script src="scripts/book.js"></script>
+</body>
+</html>

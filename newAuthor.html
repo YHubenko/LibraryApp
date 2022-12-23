@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Author</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/newAuthor.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <a href="index.html"><button>Автори</button></a>
+        <a href="genres.html"><button>Жанри</button></a>
+        <a href="searchBook.html"><button>Книги</button></a>
+    </header>
+    <main class="mainBlock">
+        <div class="workspace">
+            <form id="newAuthorForm">
+                <table>
+                    <tr>
+                        <td>Прізвище</td>
+                        <td><input type="text" id="lastNameInput"></td>
+                        <td id="newAuthorEmptyLastNameErrorOutput"></td>
+                    </tr>
+                    <tr>
+                        <td>Ім'я</td>
+                        <td><input type="text" id="firstNameInput"></td>
+                        <td id="newAuthorEmptyFirstNameErrorOutput"></td>
+                    </tr>
+                    <tr>
+                        <td>По-батькові</td>
+                        <td><input type="text" id="middleNameInput"></td>
+                    </tr>
+                    <tr>
+                        <td>Дата народження</td>
+                        <td><input type="date" id="birthDateInput"></td>
+                        <td id="newAuthorDateErrorOutput"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <footer>
+            <button id="addNewAuthorButton">Зберегти</button>
+        </footer>
+    </main>
+</div>
+<script src="scripts/storage.js"></script>
+<script src="scripts/functions.js"></script>
+<script src="scripts/newAuthor.js"></script>
+</body>
+</html>

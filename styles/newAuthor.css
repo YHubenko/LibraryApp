@@ -1,0 +1,21 @@
+p {
+    padding-left: 2.5%;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+#newAuthorForm table {
+    width: 95%;
+    margin: 5px auto;
+}
+#newAuthorForm table td {
+    width: 30%;
+}
+#newAuthorEmptyFirstNameErrorOutput,
+#newAuthorEmptyLastNameErrorOutput,
+#newAuthorDateErrorOutput {
+    color: darkred;
+    font-weight: bold;
+    width: 200px;
+}

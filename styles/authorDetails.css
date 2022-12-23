@@ -1,0 +1,27 @@
+* {
+    font-size: 15px;
+}
+#authorDetailsTable {
+    width: 95%;
+    margin: 5px auto;
+}
+#authorDetailsBooksTable {
+    width: 95%;
+    margin: 5px auto;
+}
+#authorDetailsBooksTable td {
+    padding: 5px 0;
+}
+#books {
+    padding-left: 2.5%;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin: 10px 0;
+}
+input {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 15px;
+}

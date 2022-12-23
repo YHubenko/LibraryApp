@@ -1,0 +1,17 @@
+#authorsTable {
+    width: 95%;
+    margin: 5px auto;
+}
+th:hover {
+    cursor: pointer;
+    color: #342d7e;
+}
+td {
+    padding: 5px 0;
+}
+td:nth-child(1) {
+    width: 150px;
+}
+td:nth-child(2) {
+    text-align: center;
+}
